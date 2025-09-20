@@ -2,6 +2,11 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
+import Greeter from './Greeter'
+import ColorList from './ColorList'
+import ColorList2 from './ColorList2'
+import ContactItem from './ContactItem'
+import ContactList from './ContactList'
 
 
 // Basic React Component Exercises
@@ -40,10 +45,12 @@ const names = ['Alice', 'Bob', 'John', 'Gertrude'];
 
 const fruit = ['apples', 'blackcurrants', 'pomelo', 'kiwi', 'dragon fruit'];
 function App() {
+
+  const contactData = [{name:'Tom', address:'Turku'}, {name: 'Bob', address:'Helsinki'}, {name: 'John', address: 'Oulu'}]
  
   return (
     <>
-     <p>{getGreeting()}</p>
+     {/* <p>{getGreeting()}</p>
      <h2>My colors:</h2>
      <p>{myColors.join(', ')}</p>
      
@@ -61,6 +68,18 @@ function App() {
 
      <h2>Fruit:</h2>
      <p>My favorite fruit are: {fruit.join(', ')}.</p>
+
+     <Greeter name={'Bob'}/>
+
+     <ColorList color1={'red'} color2={'blue'} color3={'pink'} />
+
+     <ColorList2 colorArray={['black', 'gray', 'tangerine', 'chestnut']} /> */}
+    {/* <ContactItem name = 'Melanie' address='Oulu, Torikatu 7'/> */}
+
+    <h2>Contact List</h2>
+    <ContactList />
+    {/* { contactData } */}
+
     </>
   )
 }
