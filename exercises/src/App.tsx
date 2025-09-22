@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import Exercise1 from './Set1/exercise1'
+import Exercise1 from './Set2/Exercise1'
 
 import './App.css'
 
