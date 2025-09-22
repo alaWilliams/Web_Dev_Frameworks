@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import Exercise1 from './Set2/Exercise1'
+import ShoppingCart from './Set2/Exercise5/ShoppingCart'
 
 import './App.css'
 
@@ -8,8 +8,11 @@ import './App.css'
 function App() {
 
  
-  return (
-    <Exercise1 />
+  return ( 
+  <>
+    <ShoppingCart />
+  </>
+    
     
   )
 }
