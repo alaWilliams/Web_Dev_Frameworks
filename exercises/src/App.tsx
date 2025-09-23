@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import Exercise4 from './Set3/Exercise4'
+import Button from './TypescriptExercises/Button'
 
 import './App.css'
 
@@ -10,7 +10,8 @@ function App() {
  
   return ( 
   <>
-    <Exercise4 />
+    <Button label="Button" onClick={()=>alert('clicked')}/>
+    <Button label="2nd button" onClick={()=>alert('2nd clicked')}/>
   </>
     
     
