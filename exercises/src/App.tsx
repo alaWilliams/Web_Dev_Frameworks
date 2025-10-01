@@ -1,5 +1,6 @@
 import { useState } from 'react'
-import Button from './TypescriptExercises/Button'
+// import Button from './TypescriptExercises/Button'
+import RecipesDemo from './recipes-demo/RecipesDemo'
 
 import './App.css'
 
@@ -10,8 +11,7 @@ function App() {
  
   return ( 
   <>
-    <Button label="Button" onClick={()=>alert('clicked')}/>
-    <Button label="2nd button" onClick={()=>alert('2nd clicked')}/>
+    <RecipesDemo />
   </>
     
     
